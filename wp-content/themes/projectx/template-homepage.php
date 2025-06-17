@@ -7,6 +7,7 @@ get_header();
 
 <div>
     <h1>homepage</h1>
+    <a href="#">Contact</a>
 </div>
 
 <?php get_template_part('template-parts/contact-form'); ?>
