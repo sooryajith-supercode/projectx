@@ -35,3 +35,23 @@ function projectx_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'projectx_pingback_header' );
+
+function projectx_enqueue_assets() {
+	// Enqueue CSS
+	wp_enqueue_style(
+		'projectx-app',
+		get_template_directory_uri() . '/dist/css/app.min.css',
+		array(), // Add dependencies if needed
+		filemtime( get_template_directory() . '/dist/css/app.min.css' )
+	);
+
+	// Enqueue JS
+	wp_enqueue_script(
+		'projectx-app',
+		get_template_directory_uri() . '/dist/js/app.min.js',
+		array('jquery'), // Add dependencies if needed
+		filemtime( get_template_directory() . '/dist/js/app.min.js' ),
+		true // Load in footer
+	);
+}
+add_action( 'wp_enqueue_scripts', 'projectx_enqueue_assets' );

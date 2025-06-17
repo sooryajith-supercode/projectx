@@ -1,3 +1,5 @@
+@use 'partials/variables' as *;
+
 // Global Padding Utilities
 .p-0 { padding: 0; }
 .p-sm { padding: $space-sm; }

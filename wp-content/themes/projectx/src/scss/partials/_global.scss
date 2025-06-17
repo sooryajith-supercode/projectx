@@ -1,0 +1,26 @@
+@use 'partials/variables' as *;
+@use 'partials/utilities' as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1720px;
+  width: 95%;
+  margin: 0 auto;
+}
