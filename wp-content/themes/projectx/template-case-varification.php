@@ -22,14 +22,14 @@ if (isset($_SESSION['verification_message'])) {
 get_header(); 
 ?>
 
-<section>
+<section class="case-verification-section">
     <div class="container">
-        <div>
-            <h3>Verify a Case</h3>
-            <p>Enter Case Verification Code</p>
+        <div class="case-verification-content">
+            <h3 class="heading-1">Verify a Case</h3>
+            <p class="text-1">Enter Case Verification Code</p>
             <form method="post">
-                <input type="text" name="case_code" placeholder="Enter code" required>
-                <button type="submit" name="check_verification">Check Verification</button>
+                <input class="code-input heading-2" type="text" name="case_code" placeholder="Enter code" required>
+                <button class="primary-btn text-2" type="submit" name="check_verification">Check Verification</button>
                 <?php if (!empty($verification_message)) echo $verification_message; ?>
             </form>
         </div>
