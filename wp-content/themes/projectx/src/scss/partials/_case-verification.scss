@@ -1,0 +1,35 @@
+.case-verification-section{
+    background: var(--color-1);
+    color: var(--color-2);
+    padding: 100px 0 140px;
+    .case-verification-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3{
+            padding-bottom: 60px;
+        }
+    }
+    .case-verification-content form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        .code-input{
+            width: 426px;
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: 1px solid var(--color-2);
+            background: var(--white);
+            text-align: center;
+        }
+        .code-input:focus,
+        .code-input:invalid {
+            outline: none;
+            border-color: var(--color-2);
+            box-shadow: none;
+        }
+    }
+}
