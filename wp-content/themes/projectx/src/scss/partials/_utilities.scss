@@ -70,7 +70,6 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.8px;
-    text-transform: uppercase;
 }
 
 .heading-2{
@@ -96,7 +95,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 16.1px; 
-    text-transform: uppercase;
 }
 
 //Button Utilities
@@ -109,4 +107,25 @@
     background: var(--color-2);
     color: var(--color-1);
     text-align: center;
+}
+
+//opacity
+.opacity-05 {
+    opacity: 0.5;
+}
+.opacity-06 {
+    opacity: 0.6;
+}
+.opacity-07 {
+    opacity: 0.7;
+}
+.opacity-08 {
+    opacity: 0.8;
+}
+.opacity-09 {
+    opacity: 0.9;
+}
+//text style
+.uppercase{
+    text-transform: uppercase;
 }

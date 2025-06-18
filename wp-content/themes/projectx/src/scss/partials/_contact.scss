@@ -1,3 +1,20 @@
+.contact_popup{
+    position:relative;
+    z-index: 99999;
+   display:none;
+}
+.contact_container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    width: 100%;
+    
+}
+.contact_section{
+    background-color: var(--color-2);
+    position: relative;
+}
 .contact_form_wrap{
     display: flex;
 justify-content: space-between;
@@ -13,6 +30,36 @@ justify-content: space-between;
     display:flex;
     gap:13px;
 }
+.address-text{
+    max-width:311px;
+    width:100%;
+}
+.contact_heading{
+    padding-bottom: 80px;
+}
+.company_address{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+.coparate_id{
+    padding-top:30px;
+}
+.contact_details{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.social_media_links{
+    padding-top:50px;
+    display: flex;
+    gap:10px;
+    a{
+        cursor: pointer;
+    }
+}
+
 .form-row {
     display: flex;
     gap: 20px;
@@ -43,6 +90,7 @@ justify-content: space-between;
     padding: 10px 0;
     width: 100%;
     font-size: 14px;
+    border-radius:0;
   }
   
   textarea {
@@ -54,7 +102,16 @@ justify-content: space-between;
     color: #fff;
     padding: 10px 20px;
     border: none;
-    font-weight: bold;
     cursor: pointer;
+    display: flex;
+    height: 48px;
+    padding: 12px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
   }
-  
+  .close_button{
+    position: absolute;
+    top:110px;
+    right:40px;
+  }

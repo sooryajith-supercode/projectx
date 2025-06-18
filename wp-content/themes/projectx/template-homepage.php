@@ -7,11 +7,11 @@ get_header();
 
 <div>
     <h1>homepage</h1>
-    <a href="#">Contact</a>
+    <a href="#" id="show-contact">Contact</a>
 </div>
 
-<?php get_template_part('template-parts/contact-form'); ?>
+<div id="contact-form-wrap" class="contact_popup">
+    <?php get_template_part('template-parts/contact-form'); ?>
+</div>
 
-<?php
-get_footer();
-?>
+<?php get_footer(); ?>

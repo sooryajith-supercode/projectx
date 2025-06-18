@@ -1,7 +1,9 @@
+<section class="contact_container">
+<div class="contact_section">
 <div class="container">
-    <div class="pt-xl pb-xl">
-        <div>
-            <h2>
+    <div class="pt-lg pb-lg">
+        <div class="contact_heading">
+            <h2 class="heading-1 uppercase opacity-09">
                 Contact Us
             </h2>
         </div>
@@ -17,7 +19,7 @@
                     <p>Lorem ipsum Private Limited</p>  
                 </div>
                 <div class="address">
-                <p>#1361, 9th Cross, JP Nagar Phase Bangalore-560078, Karnataka, India</p>
+                <p class="address-text">#1361, 9th Cross, JP Nagar Phase Bangalore-560078, Karnataka, India</p>
                 </div>
             </div>
             <div class="coparate_id">
@@ -81,3 +83,5 @@
         </div>
     </div>
 </div>
+</div>
+</section>
